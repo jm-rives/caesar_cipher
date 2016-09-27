@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  # root to:
+  get 'decodings/index'
+
+  get 'decodings/new'
+
+  get 'decoding/show'
+
+  post 'decodings/show'
+
   get 'encodings/index'
 
   get 'encodings/new'
